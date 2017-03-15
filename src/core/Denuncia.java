@@ -7,12 +7,12 @@ package core;
 public class Denuncia {
 
   /**
-   *
+   * Situacoes possiveis para uma denuncia com relação a analise do moderador.
    */
   public enum Status {
 
     /**
-     *
+     * Esse status indica que a denuncia foi efetuada, porem ainda nao foi avaliada por um moderador.
      */
     ESPERANDO_AVALIACAO,
 
