@@ -22,9 +22,8 @@ public class Moderador extends Usuario {
 	 *  
    * @param anuncio
    * @param anuncio
-   // Método pelo qual o moderador remove um anúncio denunciado
+         // Método pelo qual o moderador remove um anúncio denunciado
 	 */
-	
 	public void excluirAnuncio(Anuncio anuncio) {
 
 	}
