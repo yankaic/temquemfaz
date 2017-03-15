@@ -43,9 +43,9 @@ public class Denuncia {
    *
    * @param descricao
    * @param autorDenuncia
+   // Método que descreve denúncia realizada
    */
-  // Métdo que descreve denúncia realizada
-  public Denuncia(String descricao, Usuario autorDenuncia) {
+    public Denuncia(String descricao, Usuario autorDenuncia) {
 
   }
 
@@ -60,9 +60,9 @@ public class Denuncia {
   /**
    *
    * @param situacao
+   // Método que altera o Status da denúncia.
    */
-  // Método que altera o Status da denúncia.
-  public void atualizarStatus(Status situacao) {
+    public void atualizarStatus(Status situacao) {
 
   }
 
