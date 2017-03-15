@@ -3,8 +3,11 @@ package core;
 import java.util.Collection;
 
 /**
- * 
- * @author yanka
+ * Esta classe abstrai um usuário do tipo anunciante, que é capaz de criar anúncios
+ *   e gerenciá-los. Assim, ela possui uma lista dos anuncios publicados pelo anunciante,
+ *   ou prestador de serviço, e um currículo, responsável por apresentar uma breve qualificação
+ *   profissional deste. Além disso, o currívulo estará disponível aos clientes, com o intuito de 
+ *   disponibilizar mais uma opção para a escolha de seus contratos. 
  */
 public class Anunciante extends Usuario {
 
