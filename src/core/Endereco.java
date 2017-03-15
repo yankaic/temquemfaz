@@ -26,7 +26,7 @@ public class Endereco {
 
 	/**
 	 *  
-	 */
+	 */ //Método em que o construtor de endereço recebe todos os parâmetros menos o complemento.
 	public Endereco() {
 
 	}
