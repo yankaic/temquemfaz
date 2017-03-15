@@ -2,37 +2,39 @@ package core;
 
 public class Denuncia {
 
-	private enum Status;
+  public enum Status {
+    ESPERANDO_AVALIACAO, DENUNCIA_APROVADA, DENUNCIA_REPROVADA
+  };
 
-	private String descricao;
+  private String descricao;
 
-	private Date data;
+  private Date data;
 
-	private Usuario autorDenuncia;
+  private Usuario autorDenuncia;
 
-	private String respostaModerador;
+  private String respostaModerador;
 
-	private Status situacao;
+  private Status situacao;
 
-	private DenunciaAnuncio denunciaAnuncio;
+  private DenunciaAnuncio denunciaAnuncio;
 
-	private Usuario Autor;
+  private Usuario Autor;
 
-	private Moderador moderador;
+  private Moderador moderador;
 
-	/**
-	 *  
-	 */
-	public Denuncia(String descricao, Usuario autorDenuncia) {
+  /**
+   *
+   */
+  public Denuncia(String descricao, Usuario autorDenuncia) {
 
-	}
+  }
 
-	public void responder(String resposta) {
+  public void responder(String resposta) {
 
-	}
+  }
 
-	public void atualizarStatus(Status situacao) {
+  public void atualizarStatus(Status situacao) {
 
-	}
+  }
 
 }

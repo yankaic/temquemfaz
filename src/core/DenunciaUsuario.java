@@ -10,7 +10,7 @@ public class DenunciaUsuario extends Denuncia {
 	 *  
 	 */
 	public DenunciaUsuario(Usuario usuario, Usuario autor, String descricao) {
-
+      super(descricao, autor);
 	}
 
 }

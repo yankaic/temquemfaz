@@ -4,7 +4,10 @@ public class Contrato {
 
 	private float valor;
 
-	private enum Status;
+  /**
+   *
+   */
+  public enum Status {CONCLUIDO, TRAMITANDO, CANCELADO, SOLICITADO, ESPERANDO_QUALIFICACAO};
 
 	private Status situacao;
 

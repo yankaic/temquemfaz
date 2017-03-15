@@ -6,13 +6,15 @@ public class DenunciaAnuncio extends Denuncia {
 
 	private Denuncia denuncia;
 
-	private Anuncio anuncio;
 
 	/**
 	 *  
+   * @param descricao
+   * @param autorDenuncia
+   * @param anuncioDenunciado
 	 */
 	public DenunciaAnuncio(String descricao, Usuario autorDenuncia, Anuncio anuncioDenunciado) {
-
+      super(descricao, autorDenuncia);
 	}
 
 }
