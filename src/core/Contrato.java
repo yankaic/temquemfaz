@@ -10,7 +10,8 @@ public class Contrato {
 
   /**
    *
-   */
+   */ 
+ 
   public enum Status { 
 
       /**
@@ -53,6 +54,7 @@ public class Contrato {
    * @param anuncio
    * @param cliente
    */
+  //Método construtor da classe. Cria um contrato entre um usuário e um anúncio.
   public Contrato(Anunciante anuncio, Usuario cliente) {
 
 	}
@@ -60,6 +62,7 @@ public class Contrato {
 	/**
 	 *  
 	 */
+	// Método que salva o contrato no banco de dados
 	public void salvar() {
 
 	}
@@ -69,6 +72,7 @@ public class Contrato {
    * @param pagamento
    * @param pagamento
 	 */
+	// Modifica o método que pagamento do contrato
 	public void definirPagamento(Pagamento pagamento) {
 
 	}
@@ -78,6 +82,7 @@ public class Contrato {
    * @param qualificacao
    * @param qualificacao
 	 */
+	// Método que qualifica um contrato de acordo com o serviço recebido
 	public void qualificar(Qualificacao qualificacao) {
 
 	}
@@ -86,6 +91,7 @@ public class Contrato {
    *
    * @param situacao
    */
+  // Método que atualiza status do contrato de acordo com o serviço prestado	
   public void atualizarStatus(Status situacao) {
 
 	}
@@ -94,6 +100,7 @@ public class Contrato {
 	 *  
    * @param situacao
 	 */
+	// Método que notifica contratante sobre o status do serviço
 	public void notificarContratante(Status situacao) {
 
 	}
