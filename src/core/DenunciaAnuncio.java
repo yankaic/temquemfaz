@@ -1,8 +1,7 @@
 package core;
 
 /**
- *
- * @author yanka
+ * Classe que abstrai a denúncia sobre um anuncio. 
  */
 public class DenunciaAnuncio extends Denuncia {
 
@@ -12,12 +11,12 @@ public class DenunciaAnuncio extends Denuncia {
 
 
 	/**
-	 *  
-   * @param descricao
-   * @param autorDenuncia
-   * @param anuncioDenunciado
+	 *  Método construtor de uma denúncia referente a um anúncio.
+         * @param descricao
+         * @param autorDenuncia
+         * @param anuncioDenunciado
 	 */
-	// Método construtor de uma denúncia referente a um anúncio.
+	
 	public DenunciaAnuncio(String descricao, Usuario autorDenuncia, Anuncio anuncioDenunciado) {
       super(descricao, autorDenuncia);
 	}
