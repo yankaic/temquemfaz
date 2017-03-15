@@ -2,10 +2,6 @@ package core;
 
 import java.util.Collection;
 
-/**
- *
- * @author yanka
- */
 public class Anunciante extends Usuario {
 
 	private String curriculo;
@@ -16,16 +12,15 @@ public class Anunciante extends Usuario {
 
 	/**
 	 *  
-   * @param anuncio
 	 */
+	
+	//Método que cria um anúncio, e associa ao anunciante
 	public void criarAnuncio(Anuncio anuncio) {
 
 	}
 
 	/**
 	 *  
-   * @param anuncio
-   * @param anuncio
 	 */
 	public void excluirAnuncio(Anuncio anuncio) {
 
@@ -33,17 +28,12 @@ public class Anunciante extends Usuario {
 
 	/**
 	 *  
-   * @param anuncio
 	 */
 	public void editarAnuncio(Anuncio anuncio) {
 
 	}
 
-  /**
-   *
-   * @param contrato
-   */
-  public void notificarServico(Contrato contrato) {
+	public void notificarServico(Contrato contrato) {
 
 	}
 
