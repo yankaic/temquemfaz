@@ -6,7 +6,7 @@ package core;
  */
 public class Cartao {
 
-	private String banco;//eita vei!!!!
+	private String banco;
 
 	private String numero;
 
