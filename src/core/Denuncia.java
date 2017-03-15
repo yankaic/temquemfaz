@@ -46,8 +46,6 @@ public class Denuncia {
   /**
    *
    * @param descricao
-   * @param descricao
-   * @param autorDenuncia
    * @param autorDenuncia
    */
   public Denuncia(String descricao, Usuario autorDenuncia) {
