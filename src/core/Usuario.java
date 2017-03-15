@@ -52,9 +52,9 @@ public class Usuario {
 	}
 
 	/**
-	 *  
-	 */ //Método que carrega do banco de dados todos os contratos do usuário. 
-        //Os contratos recuperados pelo método deverão ser salvos na lista, listContratos
+	 *  //Método que carrega do banco de dados todos os contratos do usuário. 
+             Os contratos recuperados pelo método deverão ser salvos na lista, listContratos
+	 */ 
 	public void carregarContratos() {
 
 	}
