@@ -27,7 +27,7 @@ public class Anuncio {
   /**
    *
    * @return
-   */
+   */ // Método que consulta o banco de dados e retorna a qualificação do anúncio
   public int verQualificacao() {
 		return 0;
 	}
@@ -38,7 +38,7 @@ public class Anuncio {
    * @param contrato
    * @return 
    * @return  
-	 */
+	 */ // Método que notifica contrato ao usuário
 	public boolean notificarContrato(Contrato contrato) {
 		return false;
 	}
