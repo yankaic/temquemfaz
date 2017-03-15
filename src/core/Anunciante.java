@@ -17,7 +17,8 @@ public class Anunciante extends Usuario {
 	/**
 	 *  
    * @param anuncio
-	 */
+	 */ 
+	//Método que cria um anúncio, e associa ao anunciante
 	public void criarAnuncio(Anuncio anuncio) {
 
 	}
