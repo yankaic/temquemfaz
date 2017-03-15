@@ -12,9 +12,9 @@ public class DenunciaAnuncio extends Denuncia {
 
 	/**
 	 *  Método construtor de uma denúncia referente a um anúncio.
-         * @param descricao
-         * @param autorDenuncia
-         * @param anuncioDenunciado
+         * @param descricao : String
+         * @param autorDenuncia : Usuario
+         * @param anuncioDenunciado : Anuncio
 	 */
 	
 	public DenunciaAnuncio(String descricao, Usuario autorDenuncia, Anuncio anuncioDenunciado) {
