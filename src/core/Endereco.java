@@ -25,8 +25,8 @@ public class Endereco {
 	private Usuario usuario;
 
 	/**
-	 *  
-	 */ //Método em que o construtor de endereço recebe todos os parâmetros menos o complemento.
+	 * Método em que o construtor de endereço recebe todos os parâmetros menos o complemento.
+	 */
 	public Endereco() {
 
 	}
