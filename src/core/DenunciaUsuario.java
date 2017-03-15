@@ -1,8 +1,7 @@
 package core;
 
 /**
- *
- * @author yanka
+ * Classe que representa uma denuncia sobre um usuário
  */
 public class DenunciaUsuario extends Denuncia {
 
@@ -11,12 +10,10 @@ public class DenunciaUsuario extends Denuncia {
 	private Usuario usuario;
 
 	/**
-	 *  
-   * @param usuario
-   * @param autor
-   * @param autor
-   * @param descricao
-   * @param descricao
+	 *  Construtor da classe DenunciaUsuario
+         * @param usuario : Usuario
+         * @param autor : Usuario
+         * @param descricao : String
 	 */
 	public DenunciaUsuario(Usuario usuario, Usuario autor, String descricao) {
       super(descricao, autor);
