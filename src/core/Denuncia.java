@@ -1,8 +1,9 @@
 package core;
 
 /**
- *
- * @author yanka
+ * Abstração de uma denúncia. 
+ *  Uma denúncia pode ser realizada por qualquer usuário do sistema. E são divididas em dois tipo: 
+ *    Denúncia de usuário (classe DenunciaUsuario); ou, denúncia sobre anúncio (classe DenunciaAnuncio).
  */
 public class Denuncia {
 
@@ -40,28 +41,27 @@ public class Denuncia {
   private Moderador moderador;//usuario responsavel por analisar a denuncia
 
   /**
-   *
-   * @param descricao
-   * @param autorDenuncia
+   * Métdo que descreve denúncia realizada
+   * @param descricao : String
+   * @param autorDenuncia : Usuario
    */
-  // Métdo que descreve denúncia realizada
   public Denuncia(String descricao, Usuario autorDenuncia) {
 
   }
 
   /**
-   *
-   * @param resposta
+   * Método responsável por armazenar a resposta de uma denúncia. 
+   *   Essa resposta é realizada pelo moderador do sistema
+   * @param resposta : String
    */
   public void responder(String resposta) {
 
   }
 
   /**
-   *
-   * @param situacao
+   * Método que altera o Status da denúncia.
+   * @param situacao : Status
    */
-  // Método que altera o Status da denúncia.
   public void atualizarStatus(Status situacao) {
 
   }
