@@ -25,9 +25,10 @@ public class Anuncio {
 	private Anunciante anunciante;
 
   /**
-   *
+   * 
    * @return
-   */ // Método que consulta o banco de dados e retorna a qualificação do anúncio
+   Método que consulta o banco de dados e retorna a qualificação do anúncio
+   */ 
   public int verQualificacao() {
 		return 0;
 	}
@@ -38,7 +39,8 @@ public class Anuncio {
    * @param contrato
    * @return 
    * @return  
-	 */ // Método que notifica contrato ao usuário
+   // Método que notifica contrato ao usuário
+	 */ 
 	public boolean notificarContrato(Contrato contrato) {
 		return false;
 	}
