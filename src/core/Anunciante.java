@@ -18,7 +18,7 @@ public class Anunciante extends Usuario {
 	 *  
    * @param anuncio
 	 */ 
-	//Método que cria um anúncio, e associa ao anunciante
+	// Método que cria um anúncio, e associa ao anunciante
 	public void criarAnuncio(Anuncio anuncio) {
 
 	}
@@ -28,6 +28,7 @@ public class Anunciante extends Usuario {
    * @param anuncio
    * @param anuncio
 	 */
+	// Método que exclui um anúncio, e associa ao anuciante
 	public void excluirAnuncio(Anuncio anuncio) {
 
 	}
@@ -36,6 +37,7 @@ public class Anunciante extends Usuario {
 	 *  
    * @param anuncio
 	 */
+	// Método que edita um anúncio, e associa ao anunciante
 	public void editarAnuncio(Anuncio anuncio) {
 
 	}
@@ -44,6 +46,7 @@ public class Anunciante extends Usuario {
    *
    * @param contrato
    */
+  // Método que notifica serviço e associa ao contrato	
   public void notificarServico(Contrato contrato) {
 
 	}
