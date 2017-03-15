@@ -24,6 +24,8 @@ public class Pagamento {
    *
    * @return
    */
+	
+  // Método que verifica se o pagamento já foi confirmado de acordo com a data de confirmação.
   public boolean confirmado() {
 		return false;
 	}
