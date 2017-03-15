@@ -40,7 +40,6 @@ public class Usuario {
 
 	private Collection<Cartao> cartao;
 
-	private Login login;
 
 	/**
 	 *  
@@ -54,7 +53,7 @@ public class Usuario {
 	/**
 	 *  
 	 */
-	public void carregar Contratos() {
+	public void carregarContratos() {
 
 	}
 

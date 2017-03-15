@@ -6,7 +6,7 @@ package core;
  */
 public class Pagamento {
 
-	private enum Tipo;
+	public enum Tipo {DINHEIRO, CARTAO_DEBITO, CARTAO_CREDITO};
 
 	private Date dataConfirmacao;
 
