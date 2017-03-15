@@ -45,14 +45,16 @@ public class Usuario {
 	 *  
    * @param endereco
    * @param endereco
-	 */
+	 */ // Este método adiciona um endereço físico ao cadastro do usuário, contendo informações sobre a rua, cidade,
+	//  bairro, cep, estado, complemento, número da casa, e país. 
 	public void adicionarEndereco(Endereco endereco) {
 
 	}
 
 	/**
 	 *  
-	 */
+	 */ //Método que carrega do banco de dados todos os contratos do usuário. 
+        //Os contratos recuperados pelo método deverão ser salvos na lista, listContratos
 	public void carregarContratos() {
 
 	}
@@ -60,7 +62,7 @@ public class Usuario {
   /**
    *
    * @param contrato
-   */
+   */ 
   public void notificarUsuario(Contrato contrato) {
 
 	}
