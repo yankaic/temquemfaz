@@ -17,7 +17,7 @@ public class Denuncia {
     ESPERANDO_AVALIACAO,
 
     /**
-     *
+     * Esse status confirma a 
      */
     DENUNCIA_APROVADA,
 
