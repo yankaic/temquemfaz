@@ -17,31 +17,27 @@ public class Denuncia {
     ESPERANDO_AVALIACAO,
 
     /**
-     * Esse status confirma a 
+     * Esse status indica que o moderador aceitou a denuncia e ira interromper o anuncio ou usuario denunciado.
      */
     DENUNCIA_APROVADA,
 
     /**
-     *
+     * Esse status indica que o moderador recusou a denuncia e mantera ativo o anuncio ou usuario denunciado.
      */
     DENUNCIA_REPROVADA
   };
 
-  private String descricao;
+  private String descricao;//relato do denunciante que propoe a interrupcao de um anuncio ou conta de determinado usuario.
 
-  private Date data;
+  private Date data;//data da denuncia
 
-  private Usuario autorDenuncia;
+  private Usuario autorDenuncia;//aquele que denuncia
 
-  private String respostaModerador;
+  private String respostaModerador;//resposta dada pelo moderador para a denuncia feita.
 
-  private Status situacao;
+  private Status situacao;//situacao atual da denuncia
 
-  private DenunciaAnuncio denunciaAnuncio;
-
-  private Usuario Autor;
-
-  private Moderador moderador;
+  private Moderador moderador;//usuario responsavel por analisar a denuncia
 
   /**
    *
