@@ -33,7 +33,6 @@ public class Moderador extends Usuario {
          * @param usuario
          // Método pelo qual o moderador remove um usuário denunciado
 	 */
-	
 	public void excluirUsuario(Usuario usuario) {
 
 	}
