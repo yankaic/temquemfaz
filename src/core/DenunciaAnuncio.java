@@ -1,5 +1,9 @@
 package core;
 
+/**
+ *
+ * @author yanka
+ */
 public class DenunciaAnuncio extends Denuncia {
 
 	private Anuncio anuncioDenunciado;

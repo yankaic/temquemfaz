@@ -1,5 +1,9 @@
 package core;
 
+/**
+ *
+ * @author yanka
+ */
 public class Contrato {
 
 	private float valor;
@@ -7,7 +11,32 @@ public class Contrato {
   /**
    *
    */
-  public enum Status {CONCLUIDO, TRAMITANDO, CANCELADO, SOLICITADO, ESPERANDO_QUALIFICACAO};
+  public enum Status { 
+
+      /**
+       *
+       */
+      CONCLUIDO, 
+
+      /**
+       *
+       */
+      TRAMITANDO, 
+
+      /**
+       *
+       */
+      CANCELADO, 
+
+      /**
+       *
+       */
+      SOLICITADO, 
+
+      /**
+       *
+       */
+      ESPERANDO_QUALIFICACAO};
 
 	private Status situacao;
 
@@ -19,7 +48,12 @@ public class Contrato {
 
 	private Qualificacao qualificacao;
 
-	public Contrato(Anunciante anuncio, Usuario cliente) {
+  /**
+   *
+   * @param anuncio
+   * @param cliente
+   */
+  public Contrato(Anunciante anuncio, Usuario cliente) {
 
 	}
 
@@ -32,6 +66,8 @@ public class Contrato {
 
 	/**
 	 *  
+   * @param pagamento
+   * @param pagamento
 	 */
 	public void definirPagamento(Pagamento pagamento) {
 
@@ -39,17 +75,24 @@ public class Contrato {
 
 	/**
 	 *  
+   * @param qualificacao
+   * @param qualificacao
 	 */
 	public void qualificar(Qualificacao qualificacao) {
 
 	}
 
-	public void atualizarStatus(Status situacao) {
+  /**
+   *
+   * @param situacao
+   */
+  public void atualizarStatus(Status situacao) {
 
 	}
 
 	/**
 	 *  
+   * @param situacao
 	 */
 	public void notificarContratante(Status situacao) {
 

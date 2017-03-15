@@ -1,5 +1,9 @@
 package core;
 
+/**
+ *
+ * @author yanka
+ */
 public class Boleto {
 
 	private String numero;
@@ -12,12 +16,17 @@ public class Boleto {
 
 	private Pagamento pagamento;
 
-	public void salvar() {
+  /**
+   *
+   */
+  public void salvar() {
 
 	}
 
 	/**
 	 *  
+   * @return 
+   * @return  
 	 */
 	public Boleto gerarSegundaVia() {
 		return null;

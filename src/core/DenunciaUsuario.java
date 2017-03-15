@@ -1,5 +1,9 @@
 package core;
 
+/**
+ *
+ * @author yanka
+ */
 public class DenunciaUsuario extends Denuncia {
 
 	private Usuario usuarioDenunciado;
@@ -8,6 +12,11 @@ public class DenunciaUsuario extends Denuncia {
 
 	/**
 	 *  
+   * @param usuario
+   * @param autor
+   * @param autor
+   * @param descricao
+   * @param descricao
 	 */
 	public DenunciaUsuario(Usuario usuario, Usuario autor, String descricao) {
       super(descricao, autor);

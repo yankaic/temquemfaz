@@ -1,5 +1,9 @@
 package core;
 
+/**
+ *
+ * @author yanka
+ */
 public class Pagamento {
 
 	private enum Tipo;
@@ -16,7 +20,11 @@ public class Pagamento {
 
 	private Boleto boleto;
 
-	public boolean confirmado() {
+  /**
+   *
+   * @return
+   */
+  public boolean confirmado() {
 		return false;
 	}
 

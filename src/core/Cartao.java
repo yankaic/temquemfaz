@@ -1,5 +1,9 @@
 package core;
 
+/**
+ *
+ * @author yanka
+ */
 public class Cartao {
 
 	private String banco;//eita vei!!!!
@@ -12,7 +16,10 @@ public class Cartao {
 
 	private Usuario usuario;
 
-	public void salvar() {
+  /**
+   *
+   */
+  public void salvar() {
 
 	}
 

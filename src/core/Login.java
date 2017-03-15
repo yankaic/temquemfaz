@@ -1,5 +1,9 @@
 package core;
 
+/**
+ *
+ * @author yanka
+ */
 public class Login {
 
 	private String nickname;
@@ -10,6 +14,9 @@ public class Login {
 
 	/**
 	 *  
+   * @param nickname
+   * @param senha
+   * @return 
 	 */
 	public boolean validar(String nickname, String senha) {
 		return false;

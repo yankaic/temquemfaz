@@ -2,6 +2,10 @@ package core;
 
 import java.util.Collection;
 
+/**
+ *
+ * @author yanka
+ */
 public class Usuario {
 
 	private String nome;
@@ -40,6 +44,8 @@ public class Usuario {
 
 	/**
 	 *  
+   * @param endereco
+   * @param endereco
 	 */
 	public void adicionarEndereco(Endereco endereco) {
 
@@ -52,7 +58,11 @@ public class Usuario {
 
 	}
 
-	public void notificarUsuario(Contrato contrato) {
+  /**
+   *
+   * @param contrato
+   */
+  public void notificarUsuario(Contrato contrato) {
 
 	}
 

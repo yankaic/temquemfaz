@@ -1,5 +1,9 @@
 package core;
 
+/**
+ *
+ * @author yanka
+ */
 public class Pergunta {
 
 	private String pergunta;
@@ -16,6 +20,7 @@ public class Pergunta {
 
 	/**
 	 *  
+   * @param pergunta
 	 */
 	public Pergunta(String pergunta) {
 
@@ -32,6 +37,8 @@ public class Pergunta {
 	 *  
 	 *  
 	 *  
+   * @param resposta
+   * @param resposta
 	 */
 	public void responder(String resposta) {
 

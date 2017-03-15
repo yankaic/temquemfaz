@@ -2,6 +2,10 @@ package core;
 
 import java.util.Collection;
 
+/**
+ *
+ * @author yanka
+ */
 public class Anuncio {
 
 	private String descricao;
@@ -20,12 +24,20 @@ public class Anuncio {
 
 	private Anunciante anunciante;
 
-	public int verQualificacao() {
+  /**
+   *
+   * @return
+   */
+  public int verQualificacao() {
 		return 0;
 	}
 
 	/**
 	 *  
+   * @param contrato
+   * @param contrato
+   * @return 
+   * @return  
 	 */
 	public boolean notificarContrato(Contrato contrato) {
 		return false;
