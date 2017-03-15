@@ -21,14 +21,15 @@ public class Pergunta {
 	/**
 	 *  
    * @param pergunta
-	 */
-	public Pergunta(String pergunta) {
+	 */ //Este método deve armazenar a pergunta realizada pelo cliente. Automaticamente essa função deve chamar a função salvar.
+        public Pergunta(String pergunta) {
 
 	}
 
 	/**
 	 *  
 	 */
+	//Este método deve armazenar informações não salvas
 	public void salvar() {
 
 	}
@@ -39,7 +40,7 @@ public class Pergunta {
 	 *  
    * @param resposta
    * @param resposta
-	 */
+	 */ // Nete método o anunciante pode responder à perguntas
 	public void responder(String resposta) {
 
 	}
