@@ -1,5 +1,5 @@
 package core;
-
+ 
 /**
  * Está classe é uma abstação de um contrato realizado entre um usuário qualquer
  *   e um anúncio. 

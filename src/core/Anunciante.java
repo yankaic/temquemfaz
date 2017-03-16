@@ -1,7 +1,7 @@
 package core;
 
 import java.util.Collection;
-
+ 
 /**
  * Esta classe abstrai um usuário do tipo anunciante, que é capaz de criar anúncios
  *   e gerenciá-los. Assim, ela possui uma lista dos anuncios publicados pelo anunciante,

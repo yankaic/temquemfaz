@@ -1,5 +1,5 @@
 package core;
-
+ 
 /**
  * Classe que abstrai a denúncia sobre um anuncio. 
  */

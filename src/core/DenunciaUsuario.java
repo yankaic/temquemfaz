@@ -1,5 +1,5 @@
 package core;
-
+ 
 /**
  * Classe que representa uma denuncia sobre um usuário
  */

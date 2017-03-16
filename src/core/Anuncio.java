@@ -1,7 +1,7 @@
 package core;
 
 import java.util.Collection;
-
+ 
 /**
  * Está classe é representa um anúncio publicado pelos prestadores de serviço. 
  * Ela possui todos os atributos pertinentes ao anúncio publicado, como, descriçao,

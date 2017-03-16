@@ -1,5 +1,5 @@
 package core;
-
+ 
 /**
  * Abstração de uma denúncia. 
  *  Uma denúncia pode ser realizada por qualquer usuário do sistema. E são divididas em dois tipo: 
